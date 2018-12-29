@@ -1,0 +1,22 @@
+Python Numpy Lib
+
+import numpy as np					//To Import Numpy
+
+List of functions available:
+#	np.array(list_name)  				// To convert list into array
+#	np.arange(starting, ending, step_size)
+	example: np.arange(0,10,2) 			//To print number from 0 to 9 with step 2
+#	np.zeros(3) //for single dimenstion
+	np.zeros([5,5)] // for two dimensional array
+
+# if you have find evenly spaced points between range you can use linspace function
+
+	np.linspace(start,stop,number_of_points)
+	example: np.linspace(0,5,10)			//It will print 10 equally spaced points between 0 and 5.
+
+#To Print Identity Matrix
+
+	np.eye(numberof_rows_and_coloumn)
+	Example: np.eye(4)				//It will print Identity matrix of 4*4
+
+
